@@ -24,6 +24,8 @@
   "homepage": "https://github.com/DamonOehlman/objectfit",
   "devDependencies": {
     "cog": "^1.0.0",
+    "crel": "^2.1.5",
+    "fdom": "^1.2.0",
     "tape": "^3.0.1"
   }
 }
