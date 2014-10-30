@@ -19,7 +19,7 @@ it's place.
 ```js
 var fit = require('objectfit/contain');
 var crel = require('crel');
-var img = crel('img', { src: 'http://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Altja_paadikuurid.jpg/1024px-Altja_paadikuurid.jpg' });
+var img = crel('img', { src: 'http://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Plasma_globe_60th.jpg/1024px-Plasma_globe_60th.jpg' });
 var canvas = crel('canvas');
 var css = require('fdom/css');
 var context = canvas.getContext('2d');
@@ -62,6 +62,11 @@ Use [letterboxing](http://en.wikipedia.org/wiki/Letterbox) or
 [pillarboxing](http://en.wikipedia.org/wiki/Pillar_box_(film)) to resize
 an object to fit within another containing rect, without affecting the
 aspect ratio.
+
+### cover
+
+Ensure the subject completely fills the container leaving no whitespace
+visible in the container.
 
 ## License(s)
 
