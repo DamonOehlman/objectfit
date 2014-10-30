@@ -1,6 +1,6 @@
 {
   "name": "objectfit",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Different objectfit strategies for rectangular regions preserving aspect ratio",
   "main": "index.js",
   "scripts": {
