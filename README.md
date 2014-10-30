@@ -9,28 +9,31 @@ preserving aspect ratio.
 
 [![Build Status](https://img.shields.io/travis/DamonOehlman/objectfit.svg?branch=master)](https://travis-ci.org/DamonOehlman/objectfit) 
 
+## Example Usage
+
+Displayed below is an example of drawing an image on a canvas using the
+`objectfit/contain` function.  It should be noted that as the functions
+all use the same function signature, `objectfit/cover` could be used in
+it's place.
+
+ERROR: could not find: 
+
 ## Reference
 
-## contain
+All objectfit functions use the following function signature:
+
+```
+fit(container, => subject) => [x, y, width, height]
+```
+
+## Implementations
+
+### contain
 
 Use [letterboxing](http://en.wikipedia.org/wiki/Letterbox) or
 [pillarboxing](http://en.wikipedia.org/wiki/Pillar_box_(film)) to resize
 an object to fit within another containing rect, without affecting the
 aspect ratio.
-
-### Example Usage
-
-To be completed.
-
-### Reference
-
-#### `contain(container, => subject) => result`
-
-Given the supplied `container` and `subject` bounds, determine the maximum
-`result` bounds in which the subject can be displayed within the container
-without distorting the aspect ratio.
-
-All bounds are provided in the format of `[x, y, width, height]`
 
 ## License(s)
 
