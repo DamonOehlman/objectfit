@@ -17,7 +17,7 @@ all use the same function signature, `objectfit/cover` could be used in
 it's place.
 
 ```js
-var contain = require('objectfit/contain');
+var fit = require('objectfit/contain');
 var crel = require('crel');
 var img = crel('img', { src: 'http://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Altja_paadikuurid.jpg/1024px-Altja_paadikuurid.jpg' });
 var canvas = crel('canvas');
@@ -28,7 +28,7 @@ var context = canvas.getContext('2d');
 [ ['margin', 0], ['overflow', 'hidden'] ].forEach(css(document.body));
 
 function redraw() {
-  var bounds = contain(
+  var bounds = fit(
     [0, 0, window.innerWidth, window.innerHeight],
     [0, 0, img.width, img.height]
   );
