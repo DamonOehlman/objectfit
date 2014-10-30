@@ -26,3 +26,4 @@
 
 **/
 exports.contain = require('./contain');
+exports.cover = require('./cover');
