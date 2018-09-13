@@ -1,9 +1,9 @@
-var fit = require('../contain');
-var crel = require('crel');
-var img = crel('img', { src: 'http://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Plasma_globe_60th.jpg/1024px-Plasma_globe_60th.jpg' });
-var canvas = crel('canvas');
-var css = require('fdom/css');
-var context = canvas.getContext('2d');
+const fit = require('../contain');
+const crel = require('crel');
+const img = crel('img', { src: 'http://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Plasma_globe_60th.jpg/1024px-Plasma_globe_60th.jpg' });
+const canvas = crel('canvas');
+const css = require('fdom/css');
+const context = canvas.getContext('2d');
 
 // set document.body styling
 [ ['margin', 0], ['overflow', 'hidden'] ].forEach(css(document.body));
