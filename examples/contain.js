@@ -16,7 +16,7 @@ function redraw() {
 
   canvas.width = window.innerWidth;
   canvas.height = window.innerHeight;
-  context.drawImage.apply(context, [img].concat(bounds));
+  context.drawImage(img, ...bounds);
 }
 
 // redraw on image load and window resize

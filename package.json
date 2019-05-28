@@ -6,7 +6,8 @@
   "stability": "stable",
   "scripts": {
     "test": "node test/all.js",
-    "gendocs": "embellish README.md"
+    "gendocs": "embellish README.md",
+    "demo": "beefy examples/contain.js"
   },
   "repository": {
     "type": "git",
@@ -24,10 +25,12 @@
   },
   "homepage": "https://github.com/DamonOehlman/objectfit",
   "devDependencies": {
-    "cog": "^1.0.0",
-    "crel": "^2.1.5",
-    "embellish-readme": "^1.3.2",
+    "beefy": "^2.1.8",
+    "browserify": "^16.2.3",
+    "cog": "^1.1.0",
+    "crel": "^4.0.1",
+    "embellish-readme": "^1.5.0",
     "fdom": "^1.2.0",
-    "tape": "^3.0.1"
+    "tape": "^4.10.2"
   }
 }
