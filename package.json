@@ -6,7 +6,8 @@
   "stability": "stable",
   "scripts": {
     "test": "node test/all.js",
-    "gendocs": "embellish README.md"
+    "gendocs": "embellish README.md",
+    "demo": "beefy examples/contain.js"
   },
   "repository": {
     "type": "git",
